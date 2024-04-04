@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+.bubble {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #000;
+}
+
+.bubble img {
+    height: auto;
+    width: 380px;
+    margin-left: 45px;
+}
+
+.text-bubble {
+    width: 550px;
+}
+
+.main-bubble {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-bubble h2 {
+    color: #fff;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.text-bubble p {
+    color: #fff;
+}
+
+.arduino {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #000;
+}
+
+.arduino img {
+    height: auto;
+    width: 530px;
+    float: right;
+    margin-right: 15px;
+}
+
+.text-arduino {
+    width: 550px;
+}
+
+.main-arduino {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 12%;
+}
+
+.text-arduino h2 {
+    color: #fff;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-top: 10%;
+    float: right;
+}
+
+.text-arduino p {
+    color: #fff;
+    float: right;
+    text-align: right;
+    margin-bottom: 12%;
+}
+
+.how {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #000;
+}
+
+.how img {
+    height: auto;
+    width: 530px;
+    float: right;
+    margin-right: 15px;
+}
+
+.text-how {
+    width: 1000px;
+}
+
+.main-how {
+    width: 1130px;
+    max-width: 95%;;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+.text-how h3 {
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: left;
+    float: left;
+    margin-top: 2%;
+}
+
+.text-how p {
+    color: #fff;
+    float: right;
+    text-align: left;
+}

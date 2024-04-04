@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+    body {
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    }
+    
+    .container {
+        width: 20em;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        border-radius: 1em;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 1em;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .user-image {
+        padding: 3em 0;
+        background-image: linear-gradient(70deg, #61A1DD, #0083FD);
+    }
+    
+    .user-image img {
+        width: 7em;
+        height: 7em;
+        border-radius: 50%;
+        box-shadow: 0 0.6em 1.8em;
+        object-fit: cover;
+    }
+    
+    .content {
+        color: #565656;
+        padding: 2.2em;
+    }
+    
+    .name {
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    
+    .username {
+        font-size: 1em;
+        color: #9e9e9e;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: center;
+        margin: 1.5em 0;
+    }
+    
+    .button {
+        background-color: #009688;
+        color: #000;
+        text-decoration: none;
+        border: 1px solid transparent;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 3px;
+        transition: .4s;
+        margin-left: -1%;
+    }
+    
+    .button:hover {
+        background-color: transparent;
+        border: 1px solid #009688;
+        cursor: pointer;
+    }
+    

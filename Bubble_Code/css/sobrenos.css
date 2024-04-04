@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+
+section.apresentacao{
+    padding: 40px 4%;
+
+
+}
+
+
+
+
+h1{
+    color:rgb(238, 243, 245);
+    text-align: center;
+    font-family: monospace;
+    line-height: 30px ;
+
+
+}
+
+span{
+color: #2d4d5c;
+font-family: monospace;
+
+}
+
+div.txt{
+padding-right: 50px;
+}
+
+h2.title{   
+
+    color:rgb(54, 177, 226);
+    font-size: 50px;
+    text-align: center;
+    font-family:monospace;
+}
+
+
+h4{
+    color:rgb(154, 195, 231);
+    font-family:monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section.nos{
+    padding: 40px 4%;
+}
+
+ 
+
+.flex {   
+     margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    color: #f1ebeb;
+    gap: 60px ;
+    
+   }
+
+.cada_box{
+
+    padding: 40px ;
+    border: 2px solid #2d4d5c;
+    border-radius: 50px;
+    transition: .2s;
+   }
+
+   .cada_box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #6ec3eb85;
+
+   }
+
+.cada_box img {
+    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%;
+    overflow: hidden; /* Garante que a imagem fique dentro do círculo */
+    height: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+}
